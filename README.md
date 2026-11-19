@@ -12,7 +12,7 @@ code.
 
 | | |
 | --- | --- |
-| Operating system | Linux x86-64 with glibc 2.34 or newer (Ubuntu 22.04 or newer). There are no Windows or macOS builds. |
+| Operating system | Linux x86-64 with glibc 2.34 or newer (Ubuntu 22.04 or newer). On Windows 10 or 11, run it in WSL 2: see [Mining on Windows](WINDOWS.md). There is no macOS build. |
 | GPU | NVIDIA RTX 20 series (Turing) or newer. AMD and Intel GPUs are not supported. |
 | NVIDIA driver | Version 580 or newer. You need only the driver, not the CUDA Toolkit. |
 | Pool | The address of a mining pool that supports Atveno (`stratum+tcp://HOST:PORT`), written as `<pool-url>` below. Pools are run independently of this project; choose one yourself. |
