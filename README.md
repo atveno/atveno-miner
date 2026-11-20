@@ -36,6 +36,16 @@ Download the miner from the
 curl -LO https://github.com/atveno/atveno-miner/releases/latest/download/atveno-miner
 ```
 
+If it says `curl: command not found`, install curl, then run the download
+command again:
+
+```bash
+apt update && apt install -y curl
+```
+
+This works as root. As any other user, run
+`sudo apt update && sudo apt install -y curl` instead.
+
 Make it executable and check that it runs:
 
 ```bash
